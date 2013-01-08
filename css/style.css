@@ -1,0 +1,257 @@
+body {
+	background: #9ACD32;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+
+#login_form {
+	width: 500px;
+	background: #6B8E23 repeat-x 0 0;
+	border: 3px double #000000;
+	margin: 4em auto 0;
+	padding: 1em;
+	-moz-border-radius: 3px;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+#home_view {
+	width: 500px;
+	background: #6B8E23 repeat-x 0 0;
+	border: 3px double #000000;
+	margin: 150px auto 0;
+	padding: 1em;
+	-moz-border-radius: 3px;
+}
+
+#vresults_table {
+	width: 700px;
+	background: #6B8E23 repeat-x 0 0;
+	border: 3px double #000000;
+	margin: 4em auto 0;
+	padding: 1em;
+	-moz-border-radius: 3px;
+	text-align: center;
+	vertical-align: center;
+}
+
+
+table { 
+margin-left: auto;
+margin-right: auto;
+}
+
+
+h1{
+	margin-top: 2%;
+	font-family: cursive;, cursive;
+	font-size: 250%;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow:3px 3px #6B8E23;
+}
+h2 {
+	margin-top: 5%;
+	margin-left:5%;
+	font-family: cursive;, cursive;
+	font-size: 200%;
+	text-align: left;
+}
+h3 {
+	margin-top: 0;
+	font-family: cursive;, cursive;
+	font-size: 150%;
+	text-align: center;
+}
+h4,h5 {
+	margin-top: 0;
+	font-family: cursive;, cursive;
+	font-size: 100%;
+	text-align: left;
+}
+
+label {
+	font-family: cursive;, cursive;
+	font-size: 150%;
+	float:left;
+	margin-right:0.5em;
+	margin-left:0.5em;
+    padding-top:0.2em;
+    text-align:right;
+    width:25%;
+}
+
+input[type=text], input[type=password] {
+	display: block;
+	margin: 0 0 1em 0;
+	width: 280px;
+	border: 3px double #000000;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 1em;
+	background: #9ACD32 no-repeat;
+}
+
+input[type=submit] {
+	border: 3px double #000000;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 15px;
+	-moz-border-radius: 4px;
+	background: #9ACD32;
+	color: black;
+	box-shadow: 0 1px 0 #6B8E23;
+	-moz-box-shadow: 0 1px 0 #6B8E23;
+	-webkit-box-shadow: 0 1px 0 #6B8E23;
+	font-family: cursive;, cursive;
+	font-weight:bold;
+
+}
+
+input[type=submit]:hover{
+	background: #6B8E23;
+	cursor: pointer;
+}
+
+a {
+	border: 3px double #000000;
+	margin-left: 2em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 20px;
+	-moz-border-radius: 4px;
+	background: #9ACD32;
+	color: black;
+	box-shadow: 0 1px 0 #6B8E23;
+	-moz-box-shadow: 0 1px 0 #6B8E23;
+	-webkit-box-shadow: 0 1px 0 #6B8E23;
+	font-family: cursive;, cursive;
+	font-weight:bold;
+
+}
+
+
+a:hover {
+	background: #6B8E23;
+	cursor: pointer;
+}
+
+input[type=reset] {
+	border: 3px double #000000;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 15px;
+	-moz-border-radius: 4px;
+	background: #9ACD32;
+	color: black;
+	box-shadow: 0 1px 0 #6B8E23;
+	-moz-box-shadow: 0 1px 0 #6B8E23;
+	-webkit-box-shadow: 0 1px 0 #6B8E23;
+	font-family: cursive;, cursive;
+	font-weight:bold;
+}
+
+input[type=reset]:hover {
+	background: #6B8E23;
+	cursor: pointer;
+
+}
+
+/* CSS For Styling the Anchors in the Home Page*/
+#home_view a {
+	border: 3px double #000000;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 30px;
+	-moz-border-radius: 4px;
+	background: #9ACD32;
+	color: black;
+	box-shadow: 0 1px 0 #6B8E23;
+	-moz-box-shadow: 0 1px 0 #6B8E23;
+	-webkit-box-shadow: 0 1px 0 #6B8E23;
+
+}
+
+#home_view a:hover {
+	background: #6B8E23;
+	cursor: pointer;
+}
+
+
+
+/* Validation error messages */
+
+.error {
+	color: #393939;
+	font-size: 15px;
+}
+
+/* Visitor's Employee Search - Fieldset CSS */
+#Emp_Search {
+	padding: 2em;
+	width: 850px;
+	height:400px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border: 2px solid black;
+	text-align: center;
+	vertical-align: center;
+	background-color: #6B8E23; 
+}
+
+#Emp_Search:legend {
+  padding: 0.2em 0.5em;
+  border:2px solid black;
+  color: black;
+  font-size:150%;
+  text-align: center;
+  background-color: #6B8E23; 
+}
+
+#Emp_Search2 {
+	padding: 2em;
+	width: 850px;
+	height:500px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border: 2px solid black;
+	text-align: center;
+	vertical-align: center;
+	background-color: #6B8E23; 
+}
+
+#Emp_Search2:legend {
+  padding: 0.2em 0.5em;
+  border:2px solid black;
+  color: black;
+  font-size:150%;
+  text-align: center;
+  background-color: #6B8E23; 
+}
+
+
+fieldset {
+	padding: 1em;
+	width: 900px;
+	height:400px;
+	margin: auto;
+	border: 2px solid black
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border:2px solid black;
+  color: black;
+  font-size:150%;
+  text-align: center;
+  }
+
+
+
+
